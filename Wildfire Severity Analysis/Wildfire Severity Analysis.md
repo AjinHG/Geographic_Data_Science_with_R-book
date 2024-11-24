@@ -8,11 +8,11 @@
 
 ### 数据导入
 
-首先，对文件工作路径进行切换
+首先，对文件工作路径进行切换（我这里使用的是自己的文件路径大家可自行切换）
 
 
 ```R
-setwd("D:/desktop/小傻子/兰交大/地理学前沿/gdswr_data/Chapter11")
+setwd("D:/desktop/gdswr_data/Chapter11")
 ```
 
 导入必要的库
