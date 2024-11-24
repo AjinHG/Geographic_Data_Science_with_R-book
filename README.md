@@ -1,2 +1,0 @@
-# Geographic_Data_Science_with_R-book
-项目的主要内容都在HTML文件中
