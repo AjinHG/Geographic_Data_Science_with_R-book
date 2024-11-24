@@ -87,11 +87,6 @@ ext(landsat_pre)[1:4]
 
 
 
-<style>
-.list-inline {list-style: none; margin:0; padding: 0}
-.list-inline>li {display: inline-block}
-.list-inline>li:not(:last-child)::after {content: "\00b7"; padding: 0 .5ex}
-</style>
 <ol class=list-inline><li>30</li><li>30</li></ol>
 
 
@@ -101,12 +96,7 @@ ext(landsat_pre)[1:4]
 
 
 
-<style>
-.dl-inline {width: auto; margin:0; padding: 0}
-.dl-inline>dt, .dl-inline>dd {float: none; width: auto; display: inline-block}
-.dl-inline>dt::after {content: ":\0020"; padding-right: .5ex}
-.dl-inline>dt:not(:first-of-type) {padding-left: .5ex}
-</style><dl class=dl-inline><dt>xmin</dt><dd>-801045</dd><dt>xmax</dt><dd>-766575</dd><dt>ymin</dt><dd>1985745</dd><dt>ymax</dt><dd>2011245</dd></dl>
+<dl class=dl-inline><dt>xmin</dt><dd>-801045</dd><dt>xmax</dt><dd>-766575</dd><dt>ymin</dt><dd>1985745</dd><dt>ymax</dt><dd>2011245</dd></dl>
 
 
 
@@ -140,7 +130,7 @@ ext(landsat_post)[1:4]
 
 
 
-</style><dl class=dl-inline><dt>xmin</dt><dd>-801045</dd><dt>xmax</dt><dd>-766575</dd><dt>ymin</dt><dd>1985745</dd><dt>ymax</dt><dd>2011245</dd></dl>
+<dl class=dl-inline><dt>xmin</dt><dd>-801045</dd><dt>xmax</dt><dd>-766575</dd><dt>ymin</dt><dd>1985745</dd><dt>ymax</dt><dd>2011245</dd></dl>
 
 
 
@@ -156,7 +146,7 @@ plotRGB(landsat_pre,
 
 
     
-![png](.\Wildfire Severity Analysis\output_24_0.png)
+![png](/Wildfire Severity Analysis/output_24_0.png)
     
 
 
