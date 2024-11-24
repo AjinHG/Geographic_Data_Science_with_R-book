@@ -146,7 +146,7 @@ plotRGB(landsat_pre,
 
 
     
-![png](/Wildfire Severity Analysis/output_24_0.png)
+![png](/Wildfire_Severity_Analysis/output_24_0.png)
     
 
 
