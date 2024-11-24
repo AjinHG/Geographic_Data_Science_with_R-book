@@ -146,7 +146,7 @@ plotRGB(landsat_pre,
 
 
     
-![png](/Wildfire_Severity_Analysis/output_24_0.png)
+![png](images/output_24_0.png)
     
 
 
@@ -162,7 +162,7 @@ plotRGB(landsat_post,
 
 
     
-![png](output_26_0.png)
+![png](images/output_26_0.png)
     
 
 
@@ -236,7 +236,7 @@ ggplot(nbr_stack_df) +
 
 
     
-![png](output_34_1.png)
+![png](images/output_34_1.png)
     
 
 
@@ -266,7 +266,7 @@ ggplot(dnbr_df) +
 
 
     
-![png](output_37_1.png)
+![png](images/output_37_1.png)
     
 
 
@@ -349,11 +349,6 @@ unique(severity_df$value)
 ```
 
 
-<style>
-.list-inline {list-style: none; margin:0; padding: 0}
-.list-inline>li {display: inline-block}
-.list-inline>li:not(:last-child)::after {content: "\00b7"; padding: 0 .5ex}
-</style>
 <ol class=list-inline><li>NaN</li><li>1</li><li>5</li><li>2</li><li>3</li><li>4</li></ol>
 
 
@@ -395,7 +390,7 @@ ggplot(severity_df) +
 
 
     
-![png](output_53_1.png)
+![png](images/output_53_1.png)
     
 
 
@@ -485,7 +480,7 @@ theme_void()
 
 
     
-![png](output_62_1.png)
+![png](images/output_62_1.png)
     
 
 
@@ -511,7 +506,7 @@ theme_void()
 
 
     
-![png](output_64_0.png)
+![png](images/output_64_0.png)
     
 
 
@@ -554,7 +549,7 @@ theme_void()
 
 
     
-![png](output_68_0.png)
+![png](images/output_68_0.png)
     
 
 
@@ -599,7 +594,7 @@ theme_bw()
 
 
     
-![png](output_72_0.png)
+![png](images/output_72_0.png)
     
 
 
@@ -653,7 +648,7 @@ theme_void()
 
 
     
-![png](output_80_0.png)
+![png](images/output_80_0.png)
     
 
 
@@ -676,7 +671,7 @@ theme_void()
 
 
     
-![png](output_82_0.png)
+![png](images/output_82_0.png)
     
 
 
@@ -698,7 +693,7 @@ theme_void()
 
 
     
-![png](output_84_0.png)
+![png](images/output_84_0.png)
     
 
 
@@ -719,7 +714,7 @@ theme_void()
 
 
     
-![png](output_86_0.png)
+![png](images/output_86_0.png)
     
 
 
@@ -780,7 +775,7 @@ theme_void()
 
 
     
-![png](output_94_0.png)
+![png](images/output_94_0.png)
     
 
 
@@ -821,11 +816,6 @@ class(fire_gam)
 ```
 
 
-<style>
-.list-inline {list-style: none; margin:0; padding: 0}
-.list-inline>li {display: inline-block}
-.list-inline>li:not(:last-child)::after {content: "\00b7"; padding: 0 .5ex}
-</style>
 <ol class=list-inline><li>'gam'</li><li>'glm'</li><li>'lm'</li></ol>
 
 
@@ -872,7 +862,7 @@ plot(fire_gam, pages = 1)
 
 
     
-![png](output_104_0.png)
+![png](images/output_104_0.png)
     
 
 
@@ -913,7 +903,7 @@ plot_grid(elev_gg, slope_gg, nsasp_gg, ewasp_gg,
 
 
     
-![png](output_108_0.png)
+![png](images/output_108_0.png)
     
 
 
