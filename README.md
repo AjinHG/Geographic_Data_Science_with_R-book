@@ -23,47 +23,9 @@ setwd("D:/desktop/gdswr_data/Chapter11")
 ```R
 library(tidyverse)
 ```
-
-    -- [1mAttaching core tidyverse packages[22m ---------------------------------------------------------------- tidyverse 2.0.0 --
-    [32mv[39m [34mdplyr    [39m 1.1.4     [32mv[39m [34mreadr    [39m 2.1.5
-    [32mv[39m [34mforcats  [39m 1.0.0     [32mv[39m [34mstringr  [39m 1.5.0
-    [32mv[39m [34mggplot2  [39m 3.4.2     [32mv[39m [34mtibble   [39m 3.2.1
-    [32mv[39m [34mlubridate[39m 1.9.3     [32mv[39m [34mtidyr    [39m 1.3.1
-    [32mv[39m [34mpurrr    [39m 1.0.2     
-    -- [1mConflicts[22m ---------------------------------------------------------------------------------- tidyverse_conflicts() --
-    [31mx[39m [34mdplyr[39m::[32mfilter()[39m masks [34mstats[39m::filter()
-    [31mx[39m [34mdplyr[39m::[32mlag()[39m    masks [34mstats[39m::lag()
-    [36mi[39m Use the conflicted package ([3m[34m<http://conflicted.r-lib.org/>[39m[23m) to force all conflicts to become errors
-    
-
-
 ```R
 library(terra)
 ```
-
-    terra 1.5.21
-    
-    
-    载入程辑包：'terra'
-    
-    
-    The following object is masked from 'package:dplyr':
-    
-        src
-    
-    
-    The following object is masked from 'package:tidyr':
-    
-        extract
-    
-    
-    The following object is masked from 'package:ggplot2':
-    
-        arrow
-    
-    
-    
-
 
 ```R
 library(ggspatial)
@@ -74,46 +36,14 @@ library(ggspatial)
 library(sf)
 ```
 
-    Linking to GEOS 3.9.1, GDAL 3.2.1, PROJ 7.2.1; sf_use_s2() is TRUE
-    
-    
-
-
 ```R
 library(cowplot)
 ```
-
-    
-    载入程辑包：'cowplot'
-    
-    
-    The following object is masked from 'package:lubridate':
-    
-        stamp
-    
-    
-    
 
 
 ```R
 library(mgcv)
 ```
-
-    载入需要的程辑包：nlme
-    
-    
-    载入程辑包：'nlme'
-    
-    
-    The following object is masked from 'package:dplyr':
-    
-        collapse
-    
-    
-    This is mgcv 1.9-1. For overview type 'help("mgcv-package")'.
-    
-    
-
 
 ```R
 library(visreg)
@@ -204,25 +134,12 @@ ext(landsat_post)[1:4]
 
 
 
-<style>
-.list-inline {list-style: none; margin:0; padding: 0}
-.list-inline>li {display: inline-block}
-.list-inline>li:not(:last-child)::after {content: "\00b7"; padding: 0 .5ex}
-</style>
-<ol class=list-inline><li>30</li><li>30</li></ol>
-
-
-
 
 8
 
 
 
-<style>
-.dl-inline {width: auto; margin:0; padding: 0}
-.dl-inline>dt, .dl-inline>dd {float: none; width: auto; display: inline-block}
-.dl-inline>dt::after {content: ":\0020"; padding-right: .5ex}
-.dl-inline>dt:not(:first-of-type) {padding-left: .5ex}
+
 </style><dl class=dl-inline><dt>xmin</dt><dd>-801045</dd><dt>xmax</dt><dd>-766575</dd><dt>ymin</dt><dd>1985745</dd><dt>ymax</dt><dd>2011245</dd></dl>
 
 
@@ -239,7 +156,7 @@ plotRGB(landsat_pre,
 
 
     
-![png](output_24_0.png)
+![png](.\Wildfire Severity Analysis\output_24_0.png)
     
 
 
